@@ -1,2 +1,2 @@
 def solution(num, n):
-    return int(bool(num%n==0))
+    return int(num%n==0)
