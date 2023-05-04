@@ -1,0 +1,9 @@
+SELECT B.ID, B.NAME, B.HOST_ID
+    FROM PLACES B,
+    (SELECT HOST_ID, ID, COUNT(*)
+        FROM PLACES
+        GROUP BY 1
+        HAVING COUNT(*) >= 2
+        ORDER BY HOST_ID) A
+    WHERE B.HOST_ID = A.HOST_ID
+    ORDER BY 1;
