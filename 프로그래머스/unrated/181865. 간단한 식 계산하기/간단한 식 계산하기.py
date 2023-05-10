@@ -1,11 +1,8 @@
 def solution(binomial):
-    l = list(binomial.split(' '))
-    sign = l[1]
-    num1 = int(l[0])
-    num2 = int(l[-1])
-    if sign == '+':
-        return num1+num2
-    elif sign == '-':
-        return num1-num2
+    a, op, b = (binomial.split(' '))
+    if op == '+':
+        return int(a)+int(b)
+    elif op == '-':
+        return int(a)-int(b)
     else:
-        return num1*num2
+        return int(a)*int(b)
