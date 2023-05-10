@@ -11,8 +11,4 @@ def solution(n):
             n = 3*n+1
             answer.append(n)
             continue
-            
-    
-    
-    
-    return answer
+        return answer
