@@ -1,2 +1,4 @@
-# Algorithm_-on_Programmers
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+**방문해주셔서 감사합니다.**
+- 본 레퍼지토리는 제가 프로그래머스 스쿨의 코딩테스트 연습에서, Python과 MySQL 실력을 향상시키고자 진행한 문제풀이의 아카이브입니다.
+- 크롬 확장APP인 '백준허브'를 사용하여 자동적으로 Commit하게 설정해두었으나, 언어 간 다른 레퍼지터리를 설정하는 것은 불가능하기에
+- Python문제와 MySQL문제가 혼재되어 있다는 점 양해 부탁드립니다.
